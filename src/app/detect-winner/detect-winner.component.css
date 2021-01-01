@@ -1,0 +1,14 @@
+#win_text{
+    text-align: center;
+    font-family: 'Brush Script MT';
+    font-size: 82px;
+    background-color: white;
+    opacity: 0.8;
+}
+#lost_text{
+    text-align: center;
+    font-family: 'Brush Script MT';
+    font-size: 82px;
+    background-color: white;
+    opacity: 0.8;
+}

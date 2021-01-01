@@ -1,0 +1,46 @@
+<div class="w3-container">
+
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content">
+        <div class="w3-container">
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+          <p style="font-weight: bold;">Help</p>
+          <p>The game is played on a grid that's 3 squares by 3 squares.</p>
+          <p>You are X, the computer is O.</p>
+          <p>The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</p>
+          <p>When all 9 squares are full, the game is over.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+      <div class="row">
+        <div class="col-xl">
+            <button type="button" class="btn btn-light btn-lg btn-outline-success"  id= "myButton1"(click)="onClickMe('myButton1')"> </button>
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton2"(click)="onClickMe('myButton2')"> </button>
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton3"(click)="onClickMe('myButton3')"> </button>
+      </div>
+        <div class="w-100"></div>
+        <div class="col-xl">
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton4"(click)="onClickMe('myButton4')"> </button>
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton5"(click)="onClickMe('myButton5')"> </button>
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton6"(click)="onClickMe('myButton6')"> </button>
+          </div>
+        <div class="w-100"></div>
+        <div class="col-xl">
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton7"(click)="onClickMe('myButton7')"> </button>
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton8"(click)="onClickMe('myButton8')"> </button>
+            <button type="button" class="btn btn-light btn-lg btn-outline-success" id= "myButton9"(click)="onClickMe('myButton9')"> </button>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-xl">
+            <button type="button" class="btn btn-dark" id="reset" (click) = "reset()">Reset</button>
+  
+            <app-help-modal></app-help-modal>
+  
+            </div>
+            
+      </div>
+      
+    </div>

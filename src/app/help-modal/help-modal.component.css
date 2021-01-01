@@ -1,0 +1,9 @@
+#reset{
+    background-color:black;
+   
+}
+#reset:hover{
+    background-color: lightgray;
+    border-style:none;
+    color:black;
+}
