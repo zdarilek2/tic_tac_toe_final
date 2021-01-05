@@ -6,11 +6,18 @@
     left:4%;
     
 }
-
 .btn-light{
     min-width:  15%;
     min-height: 130px;
 }
+@media (max-width: 768px) { 
+    .btn-light{
+        min-width:  15%;
+        min-height:80px;
+    }
+ }
+
+
 
 .button {
     font-size: 80px;

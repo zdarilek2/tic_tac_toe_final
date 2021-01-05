@@ -12,3 +12,38 @@
     background-color: white;
     opacity: 0.8;
 }
+
+@media (max-height: 600px) { 
+    #win_text{
+        text-align: center;
+        font-family: 'Brush Script MT';
+        font-size: 45px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    #lost_text{
+        text-align: center;
+        font-family: 'Brush Script MT';
+        font-size: 45px;
+        background-color: white;
+        opacity: 0.8;
+    }
+}
+
+@media (max-height: 400px) { 
+    #win_text{
+        text-align: center;
+        font-family: 'Brush Script MT';
+        font-size: 30px;
+        background-color: white;
+        opacity: 0.8;
+    }
+    #lost_text{
+        text-align: center;
+        font-family: 'Brush Script MT';
+        font-size: 30px;
+        background-color: white;
+        opacity: 0.8;
+    }
+}
+
